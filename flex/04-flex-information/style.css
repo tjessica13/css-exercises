@@ -10,6 +10,37 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  /*title is centered on page*/
+  text-align: center;
+}
+
+/*
+centered on page horizontally
+32px between title and items
+52px between the items
+items arranged horizontally on page
+*/
+.main-container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+  padding: 32px;
+}
+
+/*
+200px width
+text wraps
+*/
+.container {
+  display: flex;
+  width: 200px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*text is centered*/
+.text {
+  text-align: center;
 }
 
 /* do not edit this footer */
