@@ -12,6 +12,9 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  /*code here*/
+  display: flex;
+  padding: 10px;
 }
 
 .profile-image {
@@ -20,6 +23,8 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  /*make the circle not get shrunk to an oval*/
+  flex-shrink: 0;
 }
 
 .logo {
@@ -45,4 +50,19 @@ a {
 
 ul {
   list-style-type: none;
+  /*code here*/
+  display: flex;
+  gap: 10px;
+  margin: 5px;
+  padding: 5px;
+  align-items: center;
+}
+
+/*flex container for right side of header*/
+/*also a flex item within the header container*/
+.right-header {
+  margin-left: auto; /*make the right side items spaced to the right side*/
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
