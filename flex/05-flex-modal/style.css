@@ -34,15 +34,9 @@ body {
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
 }
 
 .buttons-container {
-  display: flex;
-  flex-direction: row;
-  gap: 5px;
 }
 
 .icon {
